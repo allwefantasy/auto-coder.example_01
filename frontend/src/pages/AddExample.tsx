@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 
 const AddExample: React.FC = () => {
   const [name, setName] = useState('');
   const [content, setContent] = useState('');
+  const history = useHistory();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -12,6 +14,7 @@ const AddExample: React.FC = () => {
       alert('Item added successfully');
       setName('');
       setContent('');
+      history.push('/list');
     } catch (error) {
       console.error('Error adding item:', error);
     }
