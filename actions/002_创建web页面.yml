@@ -1,0 +1,24 @@
+include_file:
+  - ./base/base.yml
+  - ./base/enable_index.yml
+  - ./base/enable_wholefile.yml    
+
+project_type: ts
+enable_multi_round_generate: false
+
+image_file: /Users/allwefantasy/projects/auto-coder.example_01/screens/add_example.png
+image_mode: direct
+image_max_iter: 1
+vl_model: gpt4o_chat
+
+urls: /Users/allwefantasy/projects/auto-coder.example_01/src/server.py
+
+query: |
+  参考 server.py 中关于解读示例的接口 /api/add_item,
+  使用reactjs + typescript + tailwindcss ，将 html 转换为一张 reactjs 页面,名字为 AddExample.tsx，  
+  放在froontend/src/pages目录下。
+  注意，要严格确保 html 的页面完全一致。
+  与此同时，你需要完成和server.py中的接口对接。
+
+  此外，还要创建一个新的页面，名字为 ListExamples.tsx，对接的接口为/api/get_items，用来展示所有的items。
+  只输出有修改或者新增的文件。

@@ -1,0 +1,56 @@
+{
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/postcss.config.js": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/postcss.config.js",
+    "symbols": "函数：\n变量：\n类：\n导入语句：",
+    "last_modified": 1717310045.6410549,
+    "md5": "854b38759e7a8b4b82306ae2d9a3a833"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/tailwind.config.js": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/tailwind.config.js",
+    "symbols": "函数：\n变量：\n类：\n导入语句：",
+    "last_modified": 1717310045.640799,
+    "md5": "39703ad584fe1269525916a1c542342a"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/index.tsx": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/index.tsx",
+    "symbols": "函数：reportWebVitals\n变量：root\n类：\n导入语句：import React,import ReactDOM,import './index.css',import App,import reportWebVitals",
+    "last_modified": 1717309137.4328911,
+    "md5": "cbd01eedd718cf6aab8c0d90be193c68"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/App.tsx": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/App.tsx",
+    "symbols": "函数：App\n变量：\n类：\n导入语句：import React,import logo,import './App.css'",
+    "last_modified": 1717309137.4318416,
+    "md5": "3f6b14c0c48972b64aa3434bb89335be"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/src/server.py": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/src/server.py",
+    "symbols": "函数：add_item, get_items\n变量：items\n类：Item\n导入语句：from fastapi import FastAPI,from fastapi.middleware.cors import CORSMiddleware,from pydantic import BaseModel",
+    "last_modified": 1717310464.3560941,
+    "md5": "b06ce94bce2d94428579caf0042cf265"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/App.test.tsx": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/App.test.tsx",
+    "symbols": "函数：test\n变量：linkElement\n类：\n导入语句：import React,import { render, screen } from '@testing-library/react',import App from './App'",
+    "last_modified": 1717309137.4314094,
+    "md5": "3258d962552b258f9162a9e094ab9e6e"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/react-app-env.d.ts": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/react-app-env.d.ts",
+    "symbols": "函数：\n变量：\n类：\n导入语句：",
+    "last_modified": 1717309167.488343,
+    "md5": "3b12a2a445e35988cd2eb9f73d12c500"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/setupTests.ts": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/setupTests.ts",
+    "symbols": "函数：\n变量：\n类：\n导入语句：import '@testing-library/jest-dom'",
+    "last_modified": 1717309137.4348452,
+    "md5": "1a77571e1a8cf36018a41bcedf60db75"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/reportWebVitals.ts": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/reportWebVitals.ts",
+    "symbols": "函数：reportWebVitals\n变量：\n类：\n导入语句：import { ReportHandler } from 'web-vitals'",
+    "last_modified": 1717309137.4341795,
+    "md5": "f62c07c24a14ca699e74938f358baf22"
+  }
+}
