@@ -1,0 +1,12 @@
+include_file:
+  - ./base/base.yml
+  - ./base/enable_index.yml
+  - ./base/enable_wholefile.yml    
+
+query: |  
+    使用fastapi 在 src/server.py 提供
+    1. 一个 /api/add_item 接口。 该接口接受一个json对象，包含一个name字段一个content字段。
+    2. 一个 /api/get_items 接口。 该接口返回一个json对象，包含所有的name字段和content字段。
+    使用一个全局变量来存储这些数据。
+    
+    注意要移除 fastapi CORS 限制。
