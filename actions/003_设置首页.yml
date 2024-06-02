@@ -1,0 +1,11 @@
+include_file:
+  - ./base/base.yml
+  - ./base/enable_index.yml
+  - ./base/enable_wholefile.yml    
+
+project_type: ts
+enable_multi_round_generate: false
+
+query: |
+  AddExample.tsx,ListExamples.tsx 添加到 App.tsx 的路由中，默认展示 AddExample.tsx 页面。
+  同时修改 AddExample.tsx 页面，当成功时，跳转到 ListExamples.tsx 页面。

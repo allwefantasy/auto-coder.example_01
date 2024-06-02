@@ -52,5 +52,17 @@
     "symbols": "函数：reportWebVitals\n变量：\n类：\n导入语句：import { ReportHandler } from 'web-vitals'",
     "last_modified": 1717309137.4341795,
     "md5": "f62c07c24a14ca699e74938f358baf22"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/pages/ListExamples.tsx": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/pages/ListExamples.tsx",
+    "symbols": "函数：ListExamples, fetchItems\n变量：items, setItems\n类：Item\n导入语句：import React, { useEffect, useState } from 'react', import axios",
+    "last_modified": 1717311534.4634488,
+    "md5": "57ee1a92088acccb54315d71ddda3c35"
+  },
+  "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/pages/AddExample.tsx": {
+    "module_name": "/Users/allwefantasy/projects/auto-coder.example_01/frontend/src/pages/AddExample.tsx",
+    "symbols": "函数：AddExample, handleSubmit\n变量：name, setName, content, setContent\n类：\n导入语句：import React, { useState } from 'react', import axios from 'axios'",
+    "last_modified": 1717311534.462994,
+    "md5": "d612440265aa89423b8f2378b555626e"
   }
 }
